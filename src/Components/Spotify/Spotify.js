@@ -60,7 +60,7 @@ const Spotify = {
       return fetch(`https://api.spotify.com/v1/users/${userId}/playlists`,
         {
           headers: headers,
-          method: POST,
+          method: "POST",
           body: JSON.stringify({name: name})
         }).then(response => response.json()
         ).then(jsonResponse => {
@@ -68,7 +68,7 @@ const Spotify = {
           return fetch(`https://api.spotifu.com/v1/users/${userId}/playlists/${playlistId}/tracks`,
           {
             headers: headers,
-            method: POST,
+            method: 'POST',
             body: JSON.stringify({uris: trackUris})
           })
         })
