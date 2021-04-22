@@ -1,5 +1,5 @@
 const clientId = 'de7455d403fe4331a6ae2a32f3445299'
-const redirectUri = 'https://jammming-ed61d.firebaseapp.com/'
+const redirectUri = 'https://ergo-jamming.netlify.app/'
 let accessToken;
 
 const Spotify = {
