@@ -1,5 +1,5 @@
 const clientId = 'de7455d403fe4331a6ae2a32f3445299'
-const redirectUri = 'https://react-deploy.stackblitz.io'
+const redirectUri = 'https://jammming.stackblitz.io'
 let accessToken;
 
 const Spotify = {
