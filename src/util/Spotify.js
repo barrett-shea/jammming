@@ -1,5 +1,5 @@
 const clientId = 'de7455d403fe4331a6ae2a32f3445299'
-const redirectUri = 'https://react-678ef.firebaseapp.com'
+const redirectUri = 'https://react-deploy.stackblitz.io'
 let accessToken;
 
 const Spotify = {
