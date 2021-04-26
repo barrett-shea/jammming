@@ -5,7 +5,7 @@ import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
 import Spotify from '../Spotify/Spotify';
-//the Spotify compnent crashes the deployed app. Both methods break it
+//the Spotify compnent crashes the deployed app. Both methods break it on firebase
 
 class App extends React.Component {
   constructor(props) {
